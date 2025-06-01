@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>novino | نوینو</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- نوار ناوبری -->
+  <nav class="navbar">
+    <!-- لوگو سمت راست -->
+    <div class="logo">novino</div>
+
+    <!-- منوی وسط -->
+    <div class="nav-links" id="nav-links">
+      <a href="#" class="active">خانه</a>
+      <a href="#">دوره ها <i class="fas fa-chevron-down"></i></a>
+      <a href="#">همکاران <i class="fas fa-chevron-down"></i></a>
+      <a href="#">ارتباط با ما <i class="fas fa-chevron-down"></i></a>
+    </div>
+
+    <!-- دکمه‌های ورود/ثبت‌نام سمت چپ -->
+    <div class="auth-buttons" id="auth-buttons">
+      <!-- دکمه ثبت‌نام -->
+      <button>
+        <div class="default-btn">
+          <i class="fas fa-user-plus"></i>
+          <span>ثبت نام</span>
+        </div>
+        <div class="hover-btn">
+          <i class="fas fa-user-plus"></i>
+          <span>Sign Up</span>
+        </div>
+      </button>
+
+      <!-- دکمه ورود -->
+      <button>
+        <div class="default-btn">
+          <i class="fas fa-sign-in-alt"></i>
+          <span>ورود</span>
+        </div>
+        <div class="hover-btn">
+          <i class="fas fa-sign-in-alt"></i>
+          <span>Login</span>
+        </div>
+      </button>
+    </div>
+
+    <!-- منوی همبرگر برای موبایل -->
+    <div class="hamburger" id="hamburger">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+ <!-- بخش هیرو -->
+  <div class="hero-container">
+    <section class="hero">
+      <div class="hero-content">
+        <h1>پلتفرم جامع مشاوره کنکور</h1>
+        <p>برترین منابع آموزشی با تحلیل پیشرفت هوشمند</p>
+        <div class="hero-btns">
+          <a href="#" class="btn-primary">مشاهده دوره ها</a>
+          <a href="#" class="btn-secondary">Documentation</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="images/kokour.png" alt="Konkor Advisor" class="hero-img">
+      </div>
+    </section>
+  </div>
+
+  <!-- عنوان اصلی -->
+  <h1 class="main-title">بسته‌های مشاوره کنکور</h1>
+  
+  <!-- بسته‌های مشاوره -->
+  <div class="packages-container">
+      <!-- بسته طلایی -->
+      <div class="package">
+          <h2 class="package-title">طلایی</h2>
+          <div class="package-price">تومان ۴,۵۰۰,۰۰۰</div>
+          <p class="package-description">برای رتبه‌های برتر</p>
+          <div class="features">
+              <div class="feature">جلسات نامحدود مشاوره</div>
+              <div class="feature">برنامه‌ریزی اختصاصی</div>
+              <div class="feature">پشتیبانی ۲۴ ساعته</div>
+              <div class="feature">آزمون‌های آزمایشی همگن</div>
+              <div class="feature">جلسات نامحدود روانشناسی</div>
+          </div>
+          <a href="#" class="select-btn">انتخاب این بسته</a>
+      </div>
+      
+      <!-- بسته پیشرفته -->
+      <div class="package">
+          <h2 class="package-title">پیشرفته</h2>
+          <div class="package-price">تومان ۳,۸۰۰,۰۰۰</div>
+          <p class="package-description">مناسب برای داوطلبان جدی</p>
+          <div class="features">
+              <div class="feature">۴ جلسه مشاوره در ماه</div>
+              <div class="feature">برنامه‌ریزی روزانه</div>
+              <div class="feature">پشتیبانی نقدی ۱۷ ساعته</div>
+              <div class="feature">آزمون‌های آزمایشی ماهانه</div>
+              <div class="feature">۲ جلسه مشاوره روانشناسی</div>
+          </div>
+          <a href="#" class="select-btn">انتخاب این بسته</a>
+      </div>
+      
+      <!-- بسته پایه -->
+      <div class="package">
+          <h2 class="package-title">پایه</h2>
+          <div class="package-price">تومان ۱,۵۰۰,۰۰۰</div>
+          <p class="package-description">مناسب برای شروع</p>
+          <div class="features">
+              <div class="feature">۲ جلسه مشاوره در ماه</div>
+              <div class="feature">برنامه‌ریزی همگن</div>
+              <div class="feature">پشتیبانی از طریق تیکت</div>
+              <div class="feature">آزمون‌های آزمایشی</div>
+              <div class="feature">۱ جلسه مشاوره روانشناسی</div>
+          </div>
+
+<a href="#" class="select-btn">انتخاب این بسته</a>
+      </div>
+  </div>
+
+  <div class="services-container">
+        <h1 class="services-title">خدمات مشاوره کنکور</h1>
+        
+        <div class="services-grid">
+            <!-- خدمت 1 -->
+            <div class="service-card">
+                <h2 class="service-name">انتخاب رشته تخصصی</h2>
+                <p class="service-description">مشاوره تخصصی برای انتخاب بهترین رشته مناسب با علایق و توانایی‌های شما</p>
+                <a href="#" class="more-info">اطلاعات بیشتر ←</a>
+            </div>
+            
+            <!-- خدمت 2 -->
+            <div class="service-card">
+                <h2 class="service-name">مشاوره روانشناسی</h2>
+                <p class="service-description">کنترل استرس و اضطراب کنکور با کمک مشاوران روانشناسی مجرب</p>
+                <a href="#" class="more-info">اطلاعات بیشتر ←</a>
+            </div>
+            
+            <!-- خدمت 3 -->
+            <div class="service-card">
+                <h2 class="service-name">برنامه‌ریزی تحصیلی</h2>
+                <p class="service-description">برنامه‌ریزی اختصاصی مناسب با شرایط شما برای رسیدن به بهترین نتیجه در کنکور</p>
+                <a href="#" class="more-info">اطلاعات بیشتر ←</a>
+            </div>
+        </div>
+    </div>
+
+     <div class="container">
+    <h1 class="main-title">چرا مشاوران کنکور برتر؟</h1>
+    
+    <div class="benefits-container">
+        <!-- باکس اول -->
+        <div class="benefit-box">
+            <div class="icon-circle">
+                <i class="fas fa-user-tie"></i>
+            </div>
+            <h2>مشاوران متخصص</h2>
+            <p>تیمی از مشاوران با سابقه درخشان و دارای مدارک تخصصی در زمینه مشاوره تحصیلی</p>
+        </div>
+        
+        <!-- باکس دوم -->
+        <div class="benefit-box">
+            <div class="icon-circle">
+                <i class="fas fa-calendar-alt"></i>
+            </div>
+            <h2>برنامه‌ریزی شخصی</h2>
+            <p>طراحی برنامه‌های کاملاً اختصاصی متناسب با نیازهای هر دانش‌آموز</p>
+        </div>
+        
+        <!-- باکس سوم -->
+        <div class="benefit-box">
+            <div class="icon-circle">
+                <i class="fas fa-headset"></i>
+            </div>
+            <h2>پشتیبانی دائمی</h2>
+            <p>پاسخگویی به سوالات و رفع مشکلات در تمام ساعات شبانه‌روز</p>
+        </div>
+    </div>
+</div>
+
+<section class="advisors-section">
+        <h2 class="section-title">مشاوران برتر ما</h2>
+        
+        <div class="advisors-container">
+            <!-- مشاور 1 -->
+            <div class="advisor-card">
+                <div class="advisor-image">
+                    <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="دکتر زهرا محمدی">
+                </div>
+                <div class="advisor-info">
+                    <h3 class="advisor-name">دکتر زهرا محمدی</h3>
+                    <p class="advisor-position">مشاور انتخاب رشته</p>
+                </div>
+                <p class="advisor-bio">متخصص در زمینه انتخاب رشته با بیش از 8 سال سابقه همکاری با دانشگاه‌های برتر کشور</p>
+            </div>
+            
+            <!-- مشاور 2 -->
+            <div class="advisor-card">
+                <div class="advisor-image">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="استاد علی کریمی">
+                </div>
+                <div class="advisor-info">
+                    <h3 class="advisor-name">استاد علی کریمی</h3>
+                    <p class="advisor-position">مشاور روانشناسی تحصیلی</p>
+                </div>
+                <p class="advisor-bio">متخصص در زمینه کنترل استرس و اضطراب کنکور با رویکرد‌های نوین روانشناسی</p>
+            </div>
+            
+            <!-- مشاور 3 -->
+            <div class="advisor-card">
+                <div class="advisor-image">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="دکتر سارا حسینی">
+                </div>
+                <div class="advisor-info">
+                    <h3 class="advisor-name">دکتر سارا حسینی</h3>
+                    <p class="advisor-position">مشاور تخصصی زیست‌شناسی</p>
+                </div>
+                <p class="advisor-bio">فارغ‌التحصیل دانشگاه تهران با بیش از 7 سال تجربه در آموزش و مشاوره کنکور تجربی</p>
+            </div>
+            
+            <!-- مشاور 4 -->
+            <div class="advisor-card">
+                <div class="advisor-image">
+                    <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="دکتر محمد احمدی">
+                </div>
+                <div class="advisor-info">
+                    <h3 class="advisor-name">دکتر محمد احمدی</h3>
+                    <p class="advisor-position">مشاور ارشد ریاضی و فیزیک</p>
+                </div>
+                <p class="advisor-bio">دارای 15 سال سابقه مشاوره کنکور و تألیف چندین کتاب در زمینه آموزش ریاضیات</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="blue-stats-box">
+        <h2 class="stats-title">آمار موفقیت دانش آموزان ما</h2>
+        
+        <div class="stats-grid">
+            <div class="stat-item">
+                <span class="stat-number">9.7%</span>
+                <span class="stat-text">رضایت از خدمات مشاوره</span>
+            </div>
+            
+            <div class="stat-item">
+                <span class="stat-number">+5,000</span>
+                <span class="stat-text">دانش‌آموز موفق</span>
+            </div>
+            
+            <div class="stat-item">
+                <span class="stat-number">+130</span>
+                <span class="stat-text">رتبه زیر ۱۰۰</span>
+            </div>
+            
+            <div class="stat-item">
+                <span class="stat-number">85%</span>
+                <span class="stat-text">قبول در دانشگاه‌های برتر</span>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+<div class="contact-container">
+        <!-- بخش اطلاعات تماس -->
+        <div class="contact-info">
+            <h1>تماس با ما</h1>
+            
+            <div class="info-details">
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <p>+31-567589777</p>
+                        <p>+91133667789</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>info@konkoor-advisor.ir</p>
+                </div>
+            </div>
+            
+            <div class="social-media">
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- بخش فرم تماس -->
+        <div class="contact-form">
+            <form>
+                <div class="form-group">
+                    <label for="name">نام و نام خانوادگی</label>
+                    <input type="text" id="name" placeholder="نام خود را وارد کنید">
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">شماره تماس</label>
+                    <input type="tel" id="phone" placeholder="شماره تماس خود را وارد کنید">
+                </div>
+                
+                <div class="form-group">
+                    <label for="grade">پایه تحصیلی</label>
+                    <select id="grade">
+                        <option value="" disabled selected>پایه خود را انتخاب کنید</option>
+                        <option value="10">دهم</option>
+                        <option value="11">یازدهم</option>
+                        <option value="12">دوازدهم</option>
+                        <option value="pish">پیش دانشگاهی</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">پیام</label>
+                    <textarea id="message" placeholder="پیام خود را بنویسید"></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">ارسال پیام</button>
+            </form>
+        </div>
+    </div>
+    <br><br>
+
+       <div class="faq-header">
+        <h1>سؤالات متداول</h1>
+    </div>
+    
+    <div class="faq-container">
+        <div class="faq-item">
+            <div class="faq-question">
+                <span>چرا به مشاور کنکور نیاز دارم؟</span>
+                <span class="toggle-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <ul>
+                    <li>برنامه‌ریزی دقیق و شخصی‌سازی شده</li>
+                    <li>مدیریت زمان و منابع مطالعه</li>
+                    <li>آشنایی با تکنیک‌های مطالعه مؤثر</li>
+                    <li>کاهش استرس و اضطراب کنکور</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">
+                <span>از چه زمانی باید مشاوره کنکور را شروع کنم؟</span>
+                <span class="toggle-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <ul>
+                    <li>بهترین زمان از سال دوم دبیرستان</li>
+                    <li>برای دانش‌آموزان سال سوم: هرچه زودتر بهتر</li>
+                    <li>حداقل 6 ماه قبل از کنکور</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">
+                <span>جلسات مشاوره به چه صورت برگزار می‌شود؟</span>
+                <span class="toggle-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <ul>
+                    <li>حضوری در دفتر مشاور</li>
+                    <li>مشاوره آنلاین (تصویری/تلفنی)</li>
+                    <li>جلسات هفتگی 45 دقیقه‌ای</li>
+                    <li>پشتیبانی بین جلسات</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">
+                <span>آیا مشاوره کنکور تضمینی است؟</span>
+                <span class="toggle-icon">+</span>
+            </div>
+            <div class="faq-answer">
+                <ul>
+                    <li>هیچ مشاوری نمی‌تواند قبولی را تضمین کند</li>
+                    <li>موفقیت به تلاش دانش‌آموز بستگی دارد</li>
+                    <li>مشاور فقط راهنمایی و برنامه‌ریزی می‌کند</li>
+                    <li>تجربه نشان داده مشاوره احتمال موفقیت را افزایش می‌دهد</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <footer class="consulting-footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <h1>نوینو</h1>
+                <p>مشاوره تخصصی کنکور با برترین مشاوران کشور</p>
+                <div class="contact-info2">
+                    <p><i class="fas fa-phone"></i> ۰۲۱-۱۲۳۴۵۶۷</p>
+                    <p><i class="fas fa-envelope"></i> info@rah-abrisham.ir</p>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h3>خدمات مشاوره</h3>
+                <ul>
+                    <li><a href="#">برنامه ریزی درسی</a></li>
+                    <li><a href="#">تحلیل آزمون‌ها</a></li>
+                    <li><a href="#">مشاوره انگیزشی</a></li>
+                    <li><a href="#">انتخاب رشته</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>منابع آموزشی</h3>
+                <ul>
+                    <li><a href="#">کتاب‌های پیشنهادی</a></li>
+                    <li><a href="#">جزوات اختصاصی</a></li>
+                    <li><a href="#">ویدیوهای آموزشی</a></li>
+                    <li><a href="#">نرم‌افزارهای مفید</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>درباره ما</h3>
+                <ul>
+                    <li><a href="#">تیم مشاوران</a></li>
+                    <li><a href="#">روش‌های مشاوره</a></li>
+                    <li><a href="#">دستاوردها</a></li>
+                    <li><a href="#">همکاری با ما</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>مقالات</h3>
+                <ul>
+                    <li><a href="#">روش‌های مطالعه</a></li>
+                    <li><a href="#">مدیریت زمان</a></li>
+                    <li><a href="#">کنترل استرس</a></li>
+                    <li><a href="#">تکنیک‌های تست زنی</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="copyright">© ۱۴۰۳ نوینو. تمام حقوق محفوظ است</div>
+                <div class="footer-links">
+                    <a href="#">حریم خصوصی</a>
+                    <a href="#">قوانین و مقررات</a>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
